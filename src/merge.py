@@ -4,10 +4,10 @@ import datetime
 
 
 def auto_merge():
-    # print(' ')
-    # print('温馨提示：请把需要合并的表格复制到input文件夹下，再进行以下操作！')
-    # print(' ')
     try:
+        print(' ')
+        print('温馨提示：请把需要合并的表格复制到input文件夹下，再进行以下操作！')
+        print(' ')
         start = input('请输入表头所在行号(默认为1):')
         start = 1 if start == '' else int(start)
         end_exclude = input('请输入末尾需要剔除的行数(默认为0)：')
@@ -42,6 +42,9 @@ def auto_merge():
         print('合并成功%s个表( success )!' % len(data_list))
     except Exception as e:
         print('合并错误(error)', e)
+    print('')
+    print('作者：许建阳')
+    print('')
     os.system('pause')
 
 
