@@ -8,7 +8,7 @@
 4、合并完成后会在output文件下生成合并结果文件
 
 
-工具源码已上传只github，好用的话记得给星哦！
+工具源码已上传至github，好用的话记得给星哦！
 源码地址：https://github.com/vebys/merge_excel
 
 
